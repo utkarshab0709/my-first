@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Mit! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Balloons Background -->
+    <div class="balloons-container">
+        <div class="balloon balloon-1">🎈🎁🎉</div>
+        <div class="balloon balloon-2">🎈🎁🎉</div>
+        <div class="balloon balloon-3">🎈🎁🎉</div>
+        <div class="balloon balloon-4">🎈🎁🎉</div>
+        <div class="balloon balloon-5">🎈🎁🎉</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">
+                🎉 Happy Birthday Mit! 🎂
+            </h1>
+            <p class="hero-subtitle animate-slide-up">
+                This little website is made with love, just for you 💖plzz accept it as it is.
+            </p>
+            <a href="#memories" class="cta-button glow-button">
+                Start the Surprise 🎁
+            </a>
+        </div>
+        <div class="confetti" id="confetti"></div>
+    </section>
+
+    <!-- Birthday Countdown Section -->
+    <section id="countdown" class="countdown-section">
+        <div class="container">
+            <h2 class="section-title">⏳ The Big Day is Coming!</h2>
+            <p class="section-subtitle">Counting every second until your special day 💖</p>
+
+            <div class="countdown-container fade-in-scroll">
+                <div class="countdown-item">
+                    <div class="countdown-circle">
+                        <span id="days">00</span>
+                    </div>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-circle">
+                        <span id="hours">00</span>
+                    </div>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-circle">
+                        <span id="minutes">00</span>
+                    </div>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-circle">
+                        <span id="seconds">00</span>
+                    </div>
+                    <p>Seconds</p>
+                </div>
+            </div>
+
+            <div id="countdown-message" class="countdown-celebration">
+                <h3 class="animate-pulse">🎉 Happy Birthday Mit! 🎂</h3>
+                <p>Today is all about YOU! Let's celebrate! 🥳</p>
+                <div class="celebration-hearts"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Memories Section -->
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <h2 class="section-title">📸 photoholic mit</h2>
+            <p class="section-subtitle">capturing memories with smile✨</p>
+
+            <div class="photo-gallery">
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_132702_385.jpg"
+                            alt="Memory 1">
+                    </div>
+                    <p class="photo-caption">Sanmit godase with his chapri jacket💕</p>
+                </div>
+
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_130258_938.jpg"
+                            alt="Memory 2">
+                    </div>
+                    <p class="photo-caption">✨</p>
+                </div>
+
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_130402_591.jpg"
+                            alt="Memory 3">
+                    </div>
+                    <p class="photo-caption">🌟</p>
+                </div>
+
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_133441_973.jpg"
+                            alt="Memory 4">
+                    </div>
+                    <p class="photo-caption">cuteee 💌</p>
+                </div>
+
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_134858_839.jpg"
+                            alt="Memory 5">
+                    </div>
+                    <p class="photo-caption">🚀</p>
+                </div>
+
+                <div class="polaroid fade-in-scroll">
+                    <div class="photo-frame">
+                        <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_134944_293.jpg"
+                            alt="Memory 6">
+                    </div>
+                    <p class="photo-caption">🙏</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Messages Section -->
+    <section id="messages" class="messages-section">
+        <div class="container">
+            <h2 class="section-title">💌 Messages from the Heart</h2>
+            <p class="section-subtitle">Words can't express how much you mean to me</p>
+
+            <div class="messages-grid">
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>"Thank you for always being there for me, through thick and thin. 🌸"</p>
+                    </div>
+                </div>
+
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>"You make every moment brighter with your smile and laughter. Life is so much better with you
+                            in it! 💫"</p>
+                    </div>
+                </div>
+
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>"I'm so lucky to have you in my life.Many times
+                            You don't understand me but its ok chalta hai kya hi kr skte hai. Thank you for
+                            being YOU! 💖"</p>
+                    </div>
+                </div>
+
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>" Happy Birthday,
+                            dear 🎊"</p>
+                    </div>
+                </div>
+
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>"You inspire me every day with your angry face. you teach me how to fight with you.jokes
+                            apart May this year bring
+                            you endless joy! 🌈"</p>
+                    </div>
+                </div>
+
+                <div class="message-card fade-in-scroll">
+                    <div class="message-content">
+                        <p>"Cheers to another year of amazing memories, inside jokes, and unforgettable moments
+                            together! 🥳"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Friendship Timeline -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">🕰️ Our journey</h2>
+            <p class="section-subtitle">The story of us, through the years</p>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-photo">
+                            <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_131040_855.jpg"
+                                alt="When we met">
+                        </div>
+                        <h3>2020 - The Beginning</h3>
+                        <p>The day we met and became instant friends. Who knew this would be the start of something so
+                            special? ✨</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-photo">
+                            <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\Picsart_26-01-11_13-44-30-103.jpg"
+                                alt="First adventure">
+                        </div>
+                        <h3>2021 - First Adventure</h3>
+                        <p>When we went to see Ganpati, and the rain arrived unexpectedly—
+                            it felt like Bappa himself was blessing us. 🙏🌧️ 🗺️</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-photo">
+                            <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG-20260111-WA0000.jpg"
+                                alt="Unforgettable moments">
+                        </div>
+                        <h3>2023 - Unforgettable Moments</h3>
+                        <p>Late night talks, endless laughter, and biryanii together. Thank you for
+                            being amazing! 💕</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-photo">
+                            <img src="c:\Users\UTKARSHA\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\TempState\medias\IMG_20260111_133403_380.jpg"
+                                alt="Today">
+                        </div>
+                        <h3>2026 - Today & Forever</h3>
+                        <p>Happy Birthday! Here's to many more years of friendship, adventures, and making beautiful
+                            memories together! 🎂</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Love Story Section -->
+    <section id="our-story" class="love-story-section">
+        <div class="container">
+            <h2 class="section-title">💕 Our Story</h2>
+            <p class="section-subtitle">A journey of love, mistakes, and hope</p>
+
+            <div class="story-container">
+                <div class="story-chapter fade-in-scroll">
+                    <div class="chapter-icon">🌅</div>
+                    <h3 class="chapter-title">How It All Began</h3>
+                    <div class="story-text">
+                        <p>
+                            you remember the first time you saw me in your home.
+                            It was simple, natural, and somehow... perfect.
+                        </p>
+                        <p>
+                            We started as friends, just talking, sharing little moments. But somewhere along the way,
+                            those little moments became the best part of my day.
+                        </p>
+                        <p>
+                            Slowly, beautifully, unexpectedly.
+                            One day I woke up and realized—you weren't just my friend anymore. You were everything.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-chapter fade-in-scroll">
+                    <div class="chapter-icon">💫</div>
+                    <h3 class="chapter-title">The Beautiful Times</h3>
+                    <div class="story-text">
+                        <p>
+                            We had our own world, didn't we? Late night conversations that turned into early mornings.
+                            Inside jokes that no one else understood. Comfortable silences that said more than words
+                            ever could.
+                        </p>
+                        <p>
+                            You made ordinary days feel special. A simple walk, a random song, a silly argument—
+                            everything felt magical when I was with you.
+                        </p>
+                        <p>
+                            I felt safe with you. Like I could be myself completely, without fear of judgment.
+                            You saw all of me—the good, the bad, the messy parts—and you stayed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-chapter fade-in-scroll">
+                    <div class="chapter-icon">🌧️</div>
+                    <h3 class="chapter-title">When Things Got Hard</h3>
+                    <div class="story-text">
+                        <p>
+                            But love isn't always easy, is it? We had our struggles. Misunderstandings that hurt.
+                            Words said in anger that we didn't mean. Moments when we didn't know how to reach each
+                            other.
+                        </p>
+                        <p>
+                            There were times when silence felt heavy, when distance felt unbearable.
+                            Times when I wondered if we could make it through.
+                        </p>
+                        <p>
+                            But even in those hard moments, I never stopped caring. Even when we fought,
+                            even when it hurt, my heart still chose you. Every single time.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-chapter fade-in-scroll">
+                    <div class="chapter-icon">💔</div>
+                    <h3 class="chapter-title">Where We Are Now</h3>
+                    <div class="story-text">
+                        <p>
+                            Right now, we're not talking.
+                        </p>
+                        <p>
+                            I made mistakes. I hurt you when I should have protected your heart.
+                            I was careless with something precious. I took for granted what I should have treasured.
+                        </p>
+                        <p>
+                            The silence between us now—it's the loudest thing I've ever heard.
+                            Every day without you feels incomplete. Every moment reminds me of what I lost.
+                        </p>
+                        <p>
+                            I'm not making excuses. I'm not blaming anyone but myself.
+                            I just want you to know—I see my mistakes. I feel the weight of them.
+                            And I'm truly, deeply sorry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-chapter fade-in-scroll">
+                    <div class="chapter-icon">🕊️</div>
+                    <h3 class="chapter-title">What I Want You to Know</h3>
+                    <div class="story-text">
+                        <p>
+                            Someone I will always love, no matter what happens.
+                        </p>
+                        <p>
+                            You deserve better than the hurt I caused. You deserve someone who cherishes you,
+                            respects you, and never makes you feel like you're not enough.
+                        </p>
+                        <p>
+                            I want to be that person for you. Not the person I was when I made those mistakes,
+                            but someone better. Someone who has learned, who has grown, who understands the value of
+                            what we had.
+                        </p>
+                        <p>
+                            I know I can't erase the past. I can't take back the hurt.
+                            But I can promise to do better. To be better. To love you the way you deserve to be loved.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-chapter fade-in-scroll final-chapter">
+                    <div class="chapter-icon">🌈</div>
+                    <h3 class="chapter-title">A Hope for Tomorrow</h3>
+                    <div class="story-text">
+                        <p>
+                            I'm not asking you to forget. I'm not asking you to pretend nothing happened.
+                        </p>
+                        <p>
+                            i want just a friend in my partner not a hunter or anything who guided me according to his
+                            mood plzzz understand me.i have not cheated you.
+                        </p>
+                        <p>
+                            I miss you. I miss us. I miss the way you made me feel like home.
+                        </p>
+                        <p>
+                            If you're reading this, please know—my heart. It always was. It always will
+                            be.
+                        </p>
+                        <p class="final-plea">
+                            I'm here, waiting. Hoping. Believing that maybe, just maybe,
+                            we can find our way back to each other but when you accepting me as i am.
+                        </p>
+                        <p class="final-plea">
+                            some stories are became for an end.
+                            And ours is one of them.
+                        </p>
+                        <div class="story-signature">
+                            <p>With all my heart,</p>
+                            <p class="signature-name"> Not Yours 💕</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Surprise Section -->
+    <section id="surprise" class="surprise-section">
+        <div class="container">
+            <h2 class="section-title">🎁 A Special Surprise</h2>
+            <p class="section-subtitle">Click below to reveal your gift!</p>
+
+            <div class="gift-container">
+                <div class="gift-box" id="giftBox">
+                    <img src="images/gift.png" alt="Gift Box">
+                    <button class="open-gift-btn glow-button" id="openGiftBtn">
+                        Click to Open Your Gift 🎀
+                    </button>
+                </div>
+
+                <div class="gift-reveal" id="giftReveal">
+                    <div class="gift-message">
+                        <h3> Mit,</h3>
+                        <p>
+                            On this special day, I want you to know how incredibly grateful I am to have you in my life.
+                            You bring so much joy, laughter, and light into every moment we share.
+                        </p>
+                        <p>
+                            Your kindness, your humor, and your beautiful soul make the world a better place.
+                            I hope this year brings you everything your heart desires and more.
+                        </p>
+                        <p>
+                            May your dreams come true, may your days be filled with happiness,
+                            and may you always know how loved and appreciated you are.
+                        </p>
+                        <p class="signature">
+                            With all my love and best wishes,<br>
+                            <span class="heart-signature"> Not Yours 💖</span>
+                        </p>
+                    </div>
+                    <div class="confetti-blast" id="confettiBlast"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Emotional Question Section -->
+    <section id="final-question" class="final-question-section">
+        <div class="container">
+            <div class="question-container fade-in-scroll">
+                <h2 class="question-text">AFTER all this its time to stay goodbye because tu kdhi ch change nhi honr
+                    mazyasathi tri soo goodbye ....choose one option. 💖</h2>
+
+                <div class="answer-buttons">
+                    <button class="answer-btn yes-btn" id="yesBtn">
+                        gooodbye for forever 🌸
+                    </button>
+                    <button class="answer-btn no-btn" id="noBtn">
+                        Goodbye…
+                    </button>
+                </div>
+
+                <!-- Response Messages -->
+                <div id="yesResponse" class="response-message yes-response">
+                    <h3>Thank you for choosing forever 💕</h3>
+                    <p>You've made my heart so happy! Every moment with you is a blessing. 🌸✨</p>
+                </div>
+
+                <div id="noResponse" class="response-message no-response">
+                    <h3>Even if paths change, memories stay forever ✨</h3>
+                    <p>Thank you for all the beautiful moments we shared. You'll always have a special place in my
+                        heart. 💫</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="floating-hearts">
+            <span class="heart">💖</span>
+            <span class="heart">💕</span>
+            <span class="heart">💗</span>
+            <span class="heart">💝</span>
+            <span class="heart">💓</span>
+        </div>
+        <p class="footer-message">
+            Made with 💖 only for you
+        </p>
+        <p class="footer-date">January 21, 2026</p>
+    </footer>
+
+    <!-- Background Music Player -->
+    <div class="music-player" id="musicPlayer">
+        <button class="music-toggle" id="musicToggle">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="bgMusic" loop>
+            <!-- Add your music file here -->
+            <!-- <source src="music/birthday-song.mp3" type="audio/mpeg"> -->
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
